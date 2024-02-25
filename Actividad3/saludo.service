@@ -1,0 +1,10 @@
+[Unit]
+Description=Servicio de saludo y fecha
+
+[Service]
+ExecStart=/ruta/del/script/saludo_script.sh
+Restart=always
+User=nombre_de_usuario
+
+[Install]
+WantedBy=default.target
